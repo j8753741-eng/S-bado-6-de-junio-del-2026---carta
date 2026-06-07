@@ -71,6 +71,23 @@ transform:translateX(-50%);
 font-size:45px;
 }
 
+  .music-player{
+    margin-bottom:40px;
+    display:flex;
+    justify-content:center;
+}
+
+.music-player iframe{
+    width:100%;
+    max-width:700px;
+    height:394px;
+    border:none;
+    border-radius:25px;
+    box-shadow:
+    0 0 20px rgba(184,77,255,.6),
+    0 0 40px rgba(184,77,255,.4);
+}
+  
 .title{
 text-align:center;
 font-family:'Great Vibes',cursive;
@@ -189,8 +206,16 @@ font-size:1.25rem;
 <div class="stars"></div>
 
 <div class="card">
+  <div class="music-player">
+    <iframe
+        src="https://www.youtube.com/embed/8qPG-f8ECNM"
+        title="La canción de hoy es eazt - jay wheeler"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+  </div>
 
-<div class="title">Mi Mujer Hermosa</div>
+<div class="title">PARA MI PERSONA FAVORITA</div>
 <div class="subtitle">Carta escrita con todo mi corazón</div>
 
 <div class="letter">
